@@ -39,13 +39,9 @@ void PrintResult(string[] array)
         }
         if (a == rand2 - 1) System.Console.WriteLine("[" + string.Join(", ", array2) + "]");
     }
-
 }
 
-
-
 int N = ReadInt("Задайте длину массива: ");
-
 System.Console.WriteLine();
 string[] text = SetArray(N);
 System.Console.WriteLine();
